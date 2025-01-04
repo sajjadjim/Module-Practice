@@ -1,0 +1,31 @@
+*{
+     margin: 30px; 
+    padding: 0px;
+}
+body{
+    background-color: beige;
+}
+table{
+    width: 500px;
+}
+th{
+    text-align: left;
+}
+table,td,th{
+ /* margin: 20px; */
+ border: 1px solid black;
+ border-collapse: collapse;
+ font-size: 26px;
+}
+
+td,th{
+    padding: 5px;
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+tr:nth-child(even){
+    background-color: blueviolet;
+}

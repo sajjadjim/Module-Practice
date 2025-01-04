@@ -1,0 +1,29 @@
+body{
+    margin: 30px;
+}
+table{
+    border-collapse: collapse;
+margin: 30px
+}
+
+thead{
+background-color: rgb(15, 165, 83);
+color: white;
+border-collapse: collapse;
+font-size: 25px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+font-size: 20px;
+text-align: left;
+}
+th{
+    padding: 5px 10px 0px 0px;
+}
+
+
+tr ,td{
+    border-bottom: 2px solid rgb(226, 225, 225);
+    border-collapse: collapse;
+    margin: 5px;
+    padding: 10px; 
+    
+}
