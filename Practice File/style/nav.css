@@ -1,0 +1,53 @@
+ .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+   transition: color 0.3s ease; 
+}
+nav ul > li{
+    list-style-type: none;
+    padding: 10px;
+
+
+}
+nav  li > a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: rgb(162, 167, 165);
+    border-radius: 20px 0px 20px;
+    -webkit-border-radius: 20px 0px 20px;
+    -moz-border-radius: 20px 0px 20px;
+    -ms-border-radius: 20px 0px 20px;
+    -o-border-radius: 20px 0px 20px;
+} 
+/* nav li .dropdown{
+    display: none;
+    text-decoration: none;
+    position: absolute;
+}
+
+nav li:hover .dropdown{
+   display: block;
+   text-decoration: none;
+    list-style: none;
+} */
+
+

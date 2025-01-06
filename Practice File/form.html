@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="picture and media/favicon/icons8-form-48.png" type="image/x-icon">
+    <style>
+        li{
+            margin-bottom: 15px;
+        }
+        .one_place > li{
+            list-style-type: none;
+        }
+     
+    </style>
+    <link rel="stylesheet" href="../Practice File/style/nav.css">
+    <title>Form Data</title>
+</head>
+<body>
+    <header class="header">
+       
+            <div><h3 class="logo">Form Page</h3></div>
+            <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="documentary.html  " target="_blank">Entertainment</a></li>
+                <!-- <li>Pages <ul class="dropdown">
+                     <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="documentary.html  " target="_blank">Entertainment</a></li>
+                </ul></li> -->
+            </ul>
+        </nav>
+    </header>
+    
+    <body>
+        <form action="">
+            <h3>Trip Form Fill up:</h3>
+            <ol>
+                <li>Your name : <input type="name"></li>
+                <li>Your Age: <input type="number"></li>
+                <li>Your Address:<input type="text" name="" id="address"></li>
+                <li>Your Gender: 
+                   <select name="" id="">
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                   </select> 
+
+                </li>
+                <li>Phone No:<input type="phone" name="" id=""></li>
+            </ol>
+            <fieldset class="one_place">
+                <legend>Here select Only One Place</legend>
+                <li><input type="radio" name="input_one" id="raggamati">Raggamati -Hangging Bridge</li>
+                <li><input type="radio" name="input_one" id="">Chittagong -Potegga Sea Beach</li>
+                <li><input type="radio" name="input_one" id="cox's_bazer">Cox's Bazer - Sea Beach</li>
+                <li><input type="radio" name="input_one" id="Sylhet">Sylhet - Jaflong</li>
+            </fieldset>
+
+            <fieldset>
+                <legend>Select Food Menu</legend>
+                <ul style="list-style: none;">
+                    <li><input type="checkbox" name="" id="breakfast">Breakfast</li>
+                    <li><input type="checkbox" name="" id="lunch">Lunch</li>
+                    <li><input type="checkbox" name="" id="snacks">Snacks</li>
+                    <li><input type="checkbox" name="" id="Dinner">Dinner</li>
+                </ul>
+            </fieldset>
+
+            <input style="margin: 10px; text-align: center; border-radius: 5px; box-shadow: 1px 1px 2px red;" type="reset" value="Reset Data">
+            <input style="margin: 10px; text-align: center; border-radius: 5px; box-shadow: 1px 1px 2px green;" type="submit" value="Submit Data">
+        </form>
+        
+    </body>
+
+    <footer>
+        <p>&copy; All Reserved By SAJJAD JIM 2025</p>
+    </footer>
+</body>
+</html>
